@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+body{
+    background-color: #4B164C;
+    position: relative;
+}
+
+.to-do-container{
+    position: absolute;
+    left: 700px;
+    top: 150px;
+    background-color: #F5F5F5;
+    width: 350px;
+    min-height: 300px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 1em 0;
+
+}
+
+.to-do__title{
+    width: 350px;
+    border-bottom: 1px solid ;
+    padding-bottom: 1em;
+}
+
+.to-do-container h1{
+    font-size: 36px;
+    font-family: "Oswald", serif;
+}
+
+.to-do-container h3{
+    font-family: "oswald", serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.to-do__input{
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.to-do__input input{
+    text-align: start;
+    padding: 1.2em 4em;
+    outline: none;
+    border-radius: 4px;
+}
+
+.to-do__input button{
+    position: absolute;
+    right: 1em;
+    padding: 1em;
+    border-radius: 0 4px 4px 0;
+    background-color: #F5F5F5;
+    color: #4B164C;
+    transition: 0.3s ease-in-out;
+    outline: none;
+    font-family: "oswald", serif;
+    font-weight: 700;
+}
+
+.to-do__input button:hover{
+    background-color: #4B164C;
+    color: #F5F5F5;
+}
+
+.tasks-container{
+    background-color: #F8E7F6;
+    width: 300px;
+    height: 250px;
+    border-radius: 3px;
+    list-style-type: none;
+    padding: 1em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.task{
+    font-family: "oswald", serif;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 1em 4em;
+    background-color: #DD88CF;
+    width: 150px;
+}
+
